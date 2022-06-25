@@ -333,6 +333,9 @@ footer .web-fter {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
 }
+.navbar-default .navbar-nav .open .dropdown-menu {
+  overflow: hidden;
+}
 
 .navbar .dropdown .dropdown-menu {
   background: transparent;
