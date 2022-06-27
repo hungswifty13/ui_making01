@@ -399,6 +399,9 @@ footer .web-fter {
   .banner-top a {
     display: none;
   }
+  .display-grid {
+    display: grid;
+  }
 }
 @media (max-width: 1000px) {
   .navbar {
@@ -416,6 +419,9 @@ footer .web-fter {
   .navbar-dark .navbar-nav .nav-link:hover {
     max-width: 100%;
     padding-left: 2rem;
+  }
+  .display-grid {
+    display: grid;
   }
 }
 
@@ -510,6 +516,11 @@ footer .web-fter {
 /* Result */
 .result-area {
   margin-top: 1rem;
+}
+.result-content {
+  padding: 5px 5px;
+  border: 1px solid #d4d4d4;
+  border-top: none;
 }
 .result-top-title {
   background: url("../public/img/box2-title-bgr.png") repeat-x !important;
