@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../public/style.css" />
+    <link rel="stylesheet" href="../public/css/bootstrap.css" />
+    <link rel="stylesheet" href="../public/css/bootstrap-select.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="banner-box">
+        <div class="banner-top">
+            <a class="logo" href="/">
+                <img src="../public/img/logo3.png" class="img-fluid" alt="logo" style="float: left;">
+            </a>
+            <div class="title-logo">
+                <p class="title">CỔNG DỊCH VỤ CÔNG TỈNH HÀ GIANG</p>
+                <br>
+                <p class="link">dichvucong.hagiang.gov.vn</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Thanh navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark py-0">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/view/trang-chu.html">TRANG CHỦ <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/view/thu-tuc.html">THỦ TỤC HÀNH CHÍNH <span
+                                class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-toggle" href="/view/gui-hs-thpt.html">GỬI HỒ SƠ</a>
+                        <a class="dropdown-toggle " href="#" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Bạn chưa đăng nhập, bấm vào đây để đăng nhập lại</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRA CỨU HỒ SƠ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ĐÁNH GIÁ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-toggle" href="#">BÁO CÁO - THỐNG KÊ</a>
+                        <a class="dropdown-toggle " href="#" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Báo cáo tỏng hợp</a>
+                            <a class="dropdown-item" href="#">Thống kê tổng hợp</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">GÓP Ý</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PHẢN ÁNH KIẾN NGHỊ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-toggle" href="#">TRỢ GIÚP</a>
+                        <a class="dropdown-toggle " href="#" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Item 1</a>
+                            <a class="dropdown-item" href="#">Item 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THANH TOÁN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LIÊN KẾT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- Quảng cáo -->
+    <div class="container-fluid">
+        <section class="n-content">
+            <div class="row">
+                <div class="col-xs-4 col-md-6">
+                    <a href="#">
+                        <img class="img-ad" src="../public/img/sample_img.png" /></a>
+                    <a href="#">
+                        <img class="img-ad" src="../public/img/sample_img.png" /></a>
+                </div>
+                <div class="col-md-12 col-xs-8">
+                    <div id="slideshow">
+                        <div id="slideshowWindow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Đăng nhập/ Đăng ký -->
+        <section class="main-content pt-1">
+            <div class="row">
+                <!-- Danh sách tin mới nhất -->
+                <div class="column-left col-xs-12 col-sm-4 col-lg-3 my-3">
+                    <div class="news-title top-title-frame">
+                        <p>DANH SÁCH TIN MỚI NHẤT</p>
+                    </div>
+                    <div class="news-list">
+                        <ul class="list_news_ul">
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                            <li class="list_news_li">
+                                <a class="list_news_a" href="#">Lorem ipsum dolor sit ameted consectetur
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="view-more-news" href="#" title="Xem danh sách tin đầy đủ">
+                            <img src="../public/img/viewmore-hover.png" /></a>
+                    </div>
+                </div>
+                <!-- NỘi DUNG TIN -->
+                <div class="col-xs-12 col-sm-8 col-lg-9 my-3">
+                    <div class="send-document-top top-title-frame">
+                        <p>HƯỚNG DẪN THỦ TỤC HÀNH CHÍNH</p>
+                    </div>
+                    <div class="send-document-content gray-border">
+                        <div class="form-group form-group-new">
+                            <span class="col-md-2 control-label" style="font-weight:bold;">Thông tin chi tiết
+                                <p class="red-asterisk">(*)</p>
+                            </span>
+                            <div class="col-md-7">
+                                <textarea rows="2" cols="20" id="txtTenDuAn" class="Css_Mul" autofocus="true"
+                                    placeholder="Thông tin hồ sơ" style="width: 100%; height: 140px;"
+                                    spellcheck="true"></textarea>
+                            </div>
+                            <div class="col-md-3 col-sm-12 sender-infor">
+                                <a href="javascript: void(0);" data-toggle="modal" data-target="#modalInput"
+                                    data-original-title="Thông tin chi tiết người nộp hồ sơ"
+                                    tooltip="Xem thông tin chi tiết người nộp"><b>Thông tin người nộp</b></a>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalInput" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">THÔNG TIN NGƯỜI NỘP</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="sender-detail">
+                                                <!-- 1 -->
+                                                <div class="form-group form-group-new">
+                                                    <span class="col-md-4 control-label" style="font-weight:bold;">Họ
+                                                        tên <span class="red-text">(*)</span>:</span>
+                                                    <div class="col-md-5">
+                                                        <input type="text" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!-- 2 -->
+                                                <div class="form-group form-group-new">
+                                                    <span class="col-md-4 control-label" style="font-weight:bold;">Giới
+                                                        tính :</span>
+                                                    <div class="col-md-5">
+                                                        <select style="width:100%;">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- 3 -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Ngày sinh<span
+                                                            class="red-text">(*)</span>:</label>
+                                                    <div class="col-md-5">
+                                                        <input type="text" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!-- 4 -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Email :</label>
+                                                    <div class="col-md-5">
+                                                        <input type="text" id="" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!-- 5 -->
+                                                <div class="form-group form-group-new">
+                                                    <span class="col-md-4 control-label" style="font-weight:bold;">Số
+                                                        điện thoại<span class="red-text">(*)</span>:</span>
+                                                    <div class="col-md-5">
+                                                        <input type="text" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!-- 6 -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Loại giấy tờ :</label>
+                                                    <div class="col-md-5">
+                                                        <select style="width:100%;">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- 7 -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Số giấy tờ :</label>
+                                                    <div class="col-md-5">
+                                                        <input type="text" id="" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!-- 8 -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Tên cơ quan (Nếu có) :</label>
+                                                    <div class="col-md-5">
+                                                        <input type="text" id="" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Địa chỉ cơ quan :</label>
+                                                    <div class="col-md-5">
+                                                        <input type="text" id="" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Địa chỉ cá nhân :</label>
+                                                    <div class="col-md-5">
+                                                        <input type="text" id="" style="width:100%;">
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Tỉnh/Thành phố <span
+                                                            class="red-text">(*)</span>:</label>
+                                                    <div class="col-md-5">
+                                                        <select style="width:100%;">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Quận/Huyện <span
+                                                            class="red-text">(*)</span>:</label>
+                                                    <div class="col-md-5">
+                                                        <select style="width:100%;">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+                                                <div class="form-group form-group-new">
+                                                    <label class="col-md-4 control-label">Xã/Phường <span
+                                                            class="red-text">(*)</span>:</label>
+                                                    <div class="col-md-5">
+                                                        <select style="width:100%;">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn-common btn-register"
+                                                data-dismiss="modal">Đóng</button>
+                                            <button type="button" class="btn-common btn-login">Lưu</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THONG TIN HO SO -->
+                    <div class="application-infor">
+                        <div class="application-top-title top-title-frame">
+                            <p>DANH SÁCH THỦ TỤC HÀNH CHÍNH (Tổng số: 11953 thủ tục)</p>
+                        </div>
+                        <div class="application-infor-content gray-border">
+                            <div class="first-form">
+                                <h4>
+                                    <span class="img-infor">Thông tin nhận hồ sơ</span>
+                                </h4>
+                                <div class="form-group form-group-new">
+                                    <label class="col-md-2 control-label ">Trường<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-6">
+                                        <select class="w-100" class="" aria-hidden="true">
+                                            <option>Option 1</option>
+                                        </select>
+                                    </div>
+                                    <label class="col-md-2 control-label" style="padding-top: 0px!important">Năm
+                                        học <span class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2">
+                                        <input class="w-100" type="text" value="2022 - 2023" disabled="disabled"
+                                            placeholder="">
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <h4>
+                                    <span class="img-infor">Thông tin học sinh</span>
+                                </h4>
+                                <div class="form-group form-group-new ">
+                                    <label class="col-md-2 control-label">Họ tên học sinh
+                                        <span class="red-text">(*)</span>:</label>
+                                    <div class="col-md-6"><input class="w-100" type="text" placeholder=""></div>
+                                    <label class="col-md-2 control-label">Số CCCD/Mã định danh điện tử <span
+                                            class="red-text">(*)</span>:</label>
+                                    </label>
+                                    <div class="col-md-2"><input class="w-100" type="text" placeholder=""></div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="form-group form-group-new ">
+                                    <label class="col-md-2 control-label">Ngày sinh<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2"><input class="w-100" type="text" placeholder=""></div>
+                                    <label class="col-md-2 control-label">Giới tính<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2">
+                                        <select class="w-100" class="" aria-hidden="true">
+                                            <option>Option 1</option>
+                                        </select>
+                                    </div>
+                                    <label class="col-md-2 control-label">Dân tộc<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2"><input class="w-100" type="text" placeholder=""></div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="form-group form-group-new ">
+                                    <label class="col-md-2 control-label">Nơi sinh<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2">
+                                        <select class="w-100" class="" aria-hidden="true">
+                                            <option>Option 1</option>
+                                        </select>
+                                    </div>
+                                    <label class="col-md-2 control-label">Huyện<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2">
+                                        <select class="w-100" class="" aria-hidden="true">
+                                            <option>Option 1</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- 5 -->
+                                <div class="form-group form-group-new">
+                                    <label class="col-md-2 control-label">Học sinh trường
+                                        <span class="red-text">(*)</span>:</label>
+                                    <div class="col-md-6"><input class="w-100" type="text" placeholder=""></div>
+                                </div>
+                                <!-- 6 -->
+                                <div class="form-group form-group-new ">
+                                    <label class="col-md-2 control-label">Nơi cư trú<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2">
+                                        <select class="w-100" class="" aria-hidden="true">
+                                            <option>Option 1</option>
+                                        </select>
+                                    </div>
+                                    <label class="col-md-2 control-label">Huyện<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2">
+                                        <select class="w-100" class="" aria-hidden="true">
+                                            <option>Option 1</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- 7 -->
+                                <div class="form-group form-group-new">
+                                    <label class="col-md-2 control-label">Thôn/đội/xóm :</label>
+                                    <div class="col-md-6"><input class="w-100" type="text" placeholder=""></div>
+                                </div>
+                                <!-- 8 -->
+                                <div class="form-group form-group-new ">
+                                    <label class="col-md-2 control-label">Đối tượng ưu tiên :</label>
+                                    <div class="col-md-2">
+                                        <select class="w-100" class="" aria-hidden="true">
+                                            <option>Option 1</option>
+                                        </select>
+                                    </div>
+                                    <label class="col-md-2 control-label">Điểm ưu tiên :</label>
+                                    <div class="col-md-2">
+                                        <input class="w-100" type="text" placeholder="">
+                                    </div>
+                                </div>
+                                <!-- 9 -->
+                                <div class="form-group form-group-new">
+                                    <label class="col-md-2 control-label">Đạt giải :</label>
+                                    <div class="col-md-6"><input class="w-100" type="text"
+                                            placeholder="Ghi rõ giải mấy thuộc kỳ thi lớp mấy và môn nào"></div>
+                                    <label class="col-md-2 control-label">Điểm khuyến khích :</label>
+                                    <div class="col-md-2">
+                                        <input class="w-100" type="text" placeholder="">
+                                    </div>
+                                </div>
+                                <!-- 10 -->
+                                <div class="form-group form-group-new">
+                                    <label class="col-md-2 control-label">Giải thưởng khác :</label>
+                                    <div class="col-md-6"><input class="w-100" type="text"
+                                            placeholder="Học sinh đạt giải cấp tỉnh về văn hóa; văn nghệ; thể dục thể thao; Cuộc thi khoa học, kỹ thuật cấp tỉnh dành cho học sinh trung học cơ sở và trung học phổ thông">
+                                    </div>
+                                    <label class="col-md-2 control-label">Điểm khuyến khích :</label>
+                                    <div class="col-md-2">
+                                        <input class="w-100" type="text" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SECOND SECTION -->
+                            <div class="second-form">
+                                <label class="col-md-12">Kết quả học tập và rèn luyện:</label>
+                                <div class="col-md-12">
+                                    <table class="table-study-result table-bordered" style="width: 100%">
+                                        <tbody>
+                                            <tr>
+                                                <th rowspan="2" style="width: 10%; text-align: center">Lớp</th>
+                                                <th colspan="2" style="text-align: center">6</th>
+                                                <th colspan="2" style="text-align: center">7</th>
+                                                <th colspan="2" style="text-align: center">8</th>
+                                                <th colspan="2" style="text-align: center">9</th>
+                                            </tr>
+                                            <tr>
+                                                <th style="text-align: center;width:10%">HL</th>
+                                                <th style="text-align: center">HK</th>
+                                                <th style="text-align: center;width:10%">HL</th>
+                                                <th style="text-align: center">HK</th>
+                                                <th style="text-align: center;width:10%">HL</th>
+                                                <th style="text-align: center">HK</th>
+                                                <th style="text-align: center;width:10%">HL</th>
+                                                <th style="text-align: center">HK</th>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center">Xếp loại
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <input type="text" id="txtHocLuc6" placeholder=""
+                                                        style="width:100%;text-align: center;">
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <select id="ctl09_ctl00_txtHanhKiem6" style="width:100%;">
+                                                        <option value="">-- Chọn --</option>
+                                                        <option value="TB">Trung bình</option>
+                                                        <option value="K">Khá</option>
+                                                        <option value="T">Tốt</option>
+                                                    </select>
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <input type="text" id="txtHocLuc7" placeholder=""
+                                                        style="width:100%;text-align: center">
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <select style="width:100%;">
+                                                        <option value="">-- Chọn --</option>
+                                                        <option value="TB">Trung bình</option>
+                                                        <option value="K">Khá</option>
+                                                        <option value="T">Tốt</option>
+
+                                                    </select>
+
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <input type="text" id="txtHocLuc8" placeholder=""
+                                                        style="width:100%;text-align: center">
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <select style="width:100%;">
+                                                        <option value="">-- Chọn --</option>
+                                                        <option value="TB">Trung bình</option>
+                                                        <option value="K">Khá</option>
+                                                        <option value="T">Tốt</option>
+                                                    </select>
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <input type="text" id="txtHocLuc9" placeholder=""
+                                                        style="width:100%;text-align: center">
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <select style="width:100%;">
+                                                        <option value="">-- Chọn --</option>
+                                                        <option value="TB">Trung bình</option>
+                                                        <option value="K">Khá</option>
+                                                        <option value="T">Tốt</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- THIRD SECTION -->
+                            <div class="third-form">
+                                <h4>
+                                    <span class="img-infor">Thông tin liên quan</span>
+                                </h4>
+                                <div class="form-group form-group-new">
+                                    <label class="col-md-2 control-label">Họ tên, địa chỉ người liên hệ<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2"><input class="w-100" type="text" placeholder=""></div>
+                                    <label class="col-md-2 control-label">Số CMND/CCCD:</label>
+                                    <div class="col-md-2"><input class="w-100" type="text" placeholder=""></div>
+                                    <label class="col-md-2 control-label">Điện thoại<span
+                                            class="red-text">(*)</span>:</label>
+                                    <div class="col-md-2"><input class="w-100" type="text" placeholder=""></div>
+                                </div>
+                                <h4>
+                                    <span class="img-infor">Nguyện vọng xét tuyển</span>
+                                </h4>
+                                <!-- Mon nguyen vong 1 -->
+                                <span class="blue-text">
+                                    (Lưu ý: đối với các nguyện vọng, vui lòng chọn bắt buộc 1 nhóm KHTN hoặc KHXH, đối
+                                    với những nhóm còn lại chọn tối thiếu 1 môn học)
+                                </span>
+                                <div class="form-group form-expectation form-group-new mt-2">
+                                    <label class="col-md-2 control-label">Môn học nguyện vọng 1 :</label>
+                                    <div class="col-md-3 compulsory-subject">
+                                        <table class="w-100 table-expectation">
+                                            <thead>
+                                                <tr>
+                                                    <th>Nhóm môn bắt buộc
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="radio-subject-gr">
+                                                                            <label class="form-check-label"
+                                                                                for="flexRadioDefault1">
+                                                                                Nhóm môn KHTN
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="radio-subject-gr" checked>
+                                                                            <label class="form-check-label"
+                                                                                for="flexRadioDefault2">
+                                                                                Nhóm môn KHXH
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-6 optional-subject">
+                                        <table class="w-100 table-expectation">
+                                            <thead>
+                                                <tr>
+                                                    <th>Các môn lựa chọn
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table cellspacing="10">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <input type="hidden"
+                                                                            name="ctl09$ctl00$dlNguyenVong1$ctl00$MaMonHoc"
+                                                                            id="ctl09_ctl00_dlNguyenVong1_ctl00_MaMonHoc"
+                                                                            value="KHXH">
+                                                                        <span>
+                                                                            <span
+                                                                                id="ctl09_ctl00_dlNguyenVong1_ctl00_Label1"
+                                                                                style="color:Black;font-size:Small;font-weight:bold;font-style:italic;"><u>Nhóm
+                                                                                    môn KHXH</u></span>
+                                                                        </span>
+                                                                        <br>
+                                                                        <table
+                                                                            id="ctl09_ctl00_dlNguyenVong1_ctl00_chkList"
+                                                                            cellspacing="10" cellpadding="10"
+                                                                            style="width:100%;">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Lịch sử
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Địa lý
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                GD KT&PL
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="hidden" value="CNNT">
+                                                                        <span>
+                                                                            <span
+                                                                                style="color:Black;font-size:Small;font-weight:bold;font-style:italic;"><u>Nhóm
+                                                                                    môn Công nghệ và nghệ
+                                                                                    thuật</u></span>
+                                                                        </span>
+                                                                        <br>
+                                                                        <table cellspacing="10" cellpadding="10"
+                                                                            style="width:100%;">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Tin học
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Công nghệ
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Âm nhạc
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Mỹ thuật
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <!-- Mon nguyen vong 1.2 -->
+                                <div class="form-group form-expectation form-group-new">
+                                    <label class="col-md-2 control-label">Môn học nguyện vọng 1.2:</label>
+                                    <div class="col-md-3 compulsory-subject">
+                                        <table class="w-100 table-expectation">
+                                            <thead>
+                                                <tr>
+                                                    <th>Nhóm môn bắt buộc
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="radio-subject-gr2">
+                                                                            <label class="form-check-label"
+                                                                                for="flexRadioDefault1">
+                                                                                Nhóm môn KHTN
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="radio"
+                                                                                name="radio-subject-gr2" checked>
+                                                                            <label class="form-check-label"
+                                                                                for="flexRadioDefault2">
+                                                                                Nhóm môn KHXH
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-6 optional-subject">
+                                        <table class="w-100 table-expectation">
+                                            <thead>
+                                                <tr>
+                                                    <th>Các môn lựa chọn
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table cellspacing="10">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <input type="hidden"
+                                                                            name="ctl09$ctl00$dlNguyenVong1$ctl00$MaMonHoc"
+                                                                            id="ctl09_ctl00_dlNguyenVong1_ctl00_MaMonHoc"
+                                                                            value="KHXH">
+                                                                        <span>
+                                                                            <span
+                                                                                id="ctl09_ctl00_dlNguyenVong1_ctl00_Label1"
+                                                                                style="color:Black;font-size:Small;font-weight:bold;font-style:italic;"><u>Nhóm
+                                                                                    môn KHXH</u></span>
+                                                                        </span>
+                                                                        <br>
+                                                                        <table
+                                                                            id="ctl09_ctl00_dlNguyenVong1_ctl00_chkList"
+                                                                            cellspacing="10" cellpadding="10"
+                                                                            style="width:100%;">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Lịch sử
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Địa lý
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                GD KT&PL
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="hidden" value="CNNT">
+                                                                        <span>
+                                                                            <span
+                                                                                style="color:Black;font-size:Small;font-weight:bold;font-style:italic;"><u>Nhóm
+                                                                                    môn Công nghệ và nghệ
+                                                                                    thuật</u></span>
+                                                                        </span>
+                                                                        <br>
+                                                                        <table cellspacing="10" cellpadding="10"
+                                                                            style="width:100%;">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject2-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Tin học
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject2-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Công nghệ
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject2-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Âm nhạc
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>
+                                                                                        <div class="form-check">
+                                                                                            <input
+                                                                                                class="form-check-input"
+                                                                                                type="radio"
+                                                                                                name="radio-subject2-2">
+                                                                                            <label
+                                                                                                class="form-check-label"
+                                                                                                for="flexRadioDefault1">
+                                                                                                Mỹ thuật
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <!-- Nguyện vọng 2 -->
+                                <div class="form-group form-expectation form-group-new">
+                                    <label class="col-md-2 control-label">Nguyện vọng 2 :</label>
+                                    <div class="col-md-6">
+                                        <select class="selectpicker"
+                                            title="--- Áp dụng Nguyện vọng đăng ký xét tuyển vào lớp 10, Trường PTDTNT ---"
+                                            data-width="fit" data-live-search="true" data-hide-disabled="false">
+                                            <option>PTDT Nội trú THCS&THPT Bắc Mê, Huyện
+                                                Bắc Mê</option>
+                                            <option>PTDT Nội trú THCS&THPT Hoàng Su Phì, Huyện
+                                                Hoàng Su Phì</option>
+                                            <option>THCS&THPT Tùng Bá, Huyện Vị Xuyên</option>
+                                        </select>
+                                        <i>Nhập tên trường để tìm kiếm</i>
+                                    </div>
+
+                                </div>
+                                <div class="form-group form-expectation form-group-new">
+                                    <label class="col-md-2"></label>
+                                    <div class="col-md-8">
+                                        <p class="red-text commit"><input id="chkIsCamKet" type="checkbox">
+                                            <em>
+                                                <strong>
+                                                    Tôi đã đọc hướng dẫn tuyển sinh và cam kết những nội dung tự
+                                                    điền trên là đúng sự thật. Nếu sai tôi xin hoàn toàn chịu trách
+                                                    nhiệm
+                                                    theo các quy đinh, quy chế tuyển sinh hiện hành.
+                                                </strong>
+                                            </em>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DANH SACH CAC THANH PHAN -->
+                    <div class="result-area">
+                        <div class="result-top-title top-title-frame">
+                            <p>DANH SÁCH THỦ TỤC HÀNH CHÍNH (Tổng số: 11953 thủ tục)</p>
+                        </div>
+                        <div>
+                            <table cellspacing="0" cellpadding="4" rules="all"
+                                class="table table-bordered table-result">
+                                <tbody>
+                                    <tr class="table-headline">
+                                        <th text-align="center" scope="col">STT</th>
+                                        <th scope="col" style="width: 45%;">Tên thành phần</th>
+                                        <th scope="col" style="width: 10%;">Tệp đính kèm</th>
+                                        <th scope="col" style="width: 10%;">B.Chính</th>
+                                        <th scope="col" style="width: 10%;">B.Sao</th>
+                                        <th scope="col" style="width: 10%;">B.Photo</th>
+                                        <th scope="col">Biểu mẫu</th>
+                                    </tr>
+                                    <tr>
+                                        <td text-align="center" style="width:2%;">
+                                            1
+                                        </td>
+                                        <td text-align="justify">
+                                            <p>Giấy khai sinh hợp lệ</p>
+                                            <span class="important-box">Bắt
+                                                buộc</span>
+                                        </td>
+                                        <td text-align="justify">
+                                            <input type="file" name="" id="">
+                                        </td>
+                                        <td text-align="left" style="width:25%;">
+                                            <p>0</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>1</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>0</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td text-align="center" style="width:2%;">
+                                            2
+                                        </td>
+                                        <td text-align="justify">
+                                            <p>Sổ hộ khẩu (bản sao hợp lệ) hoặc văn bản xác nhận thông tin về
+                                                cư trú của cơ quan có thẩm quyền (Bắt buộc đối với tuyển sinh vào trường
+                                                PTDT Nội trú)</p>
+                                        </td>
+                                        <td text-align="justify">
+                                            <input type="file" name="" id="">
+                                        </td>
+                                        <td text-align="left" style="width:25%;">
+                                            <p>0</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>1</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>0</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td text-align="center" style="width:2%;">
+                                            3
+                                        </td>
+                                        <td text-align="justify">
+                                            <p>Học bạ cấp trung học cơ sở</p>
+                                            <span class="important-box">Bắt
+                                                buộc</span>
+                                        </td>
+                                        <td text-align="justify">
+                                            <input type="file" name="" id="">
+                                        </td>
+                                        <td text-align="left" style="width:25%;">
+                                            <p>0</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>1</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>0</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td text-align="center" style="width:2%;">
+                                            1
+                                        </td>
+                                        <td text-align="justify">
+                                            <p>Giấy xác nhận chế độ ưu tiên, do cơ quan có thẩm quyền cấp</p>
+                                            <span class="important-box">Bắt
+                                                buộc</span>
+                                        </td>
+                                        <td text-align="justify">
+                                            <input type="file" name="" id="">
+                                        </td>
+                                        <td text-align="left" style="width:25%;">
+                                            <p>0</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>1</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>0</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <a href="#">Tải file</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td text-align="center" style="width:2%;">
+                                            1
+                                        </td>
+                                        <td text-align="justify">
+                                            <p>Giấy xác nhận do Ủy ban nhân dân xã, phường, thị trấn cấp (đối
+                                                với người học đã tốt nghiệp trung học cơ sở từ những năm học trước)
+                                                không trong thời gian thi hành án phạt tù; cải tạo không giam giữ hoặc
+                                                vi phạm pháp luật</p>
+                                        </td>
+                                        <td text-align="justify">
+                                            <input type="file" name="" id="">
+                                        </td>
+                                        <td text-align="left" style="width:25%;">
+                                            <p>0</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>1</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>0</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td text-align="center" style="width:2%;">
+                                            1
+                                        </td>
+                                        <td text-align="justify">
+                                            <p>Bằng tốt nghiệp trung học cơ sở hoặc giấy chứng nhận tốt nghiệp trung học
+                                                cơ sở tạm thời </p>
+                                            <span class="important-box">Bắt
+                                                buộc</span>
+                                        </td>
+                                        <td text-align="justify">
+                                            <input type="file" name="" id="">
+                                        </td>
+                                        <td text-align="left" style="width:25%;">
+                                            <p>0</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>1</p>
+                                        </td>
+                                        <td text-align="center" style="width:14%;">
+                                            <p>0</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Toolbox -->
+    <div class="tool_box">
+        <a href="#">
+            <div class="box-new box4 text-center" style="margin-bottom: 5px!important">
+                <img src="../public/img/step.png">
+            </div>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="web-fter container">
+            <h5>CỔNG DỊCH VỤ CÔNG TỈNH HÀ GIANG</h5>
+            <p>CƠ QUAN CHỦ QUẢN: VĂN PHÒNG UBND TỈNH HÀ GIANG</p>
+            <p>Email: vpubnd@hagiang.gov.vn</p>
+        </div>
+    </footer>
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JS -->
+    <script src="../public/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../public/js/popper.min.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+    <script src="../public/js/bootstrap-select.min.js"></script>
+    <script src="https://kit.fontawesome.com/d4f4e734fe.js" crossorigin="anonymous"></script>
+    <script src="../public/js/custom/backToTop.js"></script>
+</body>
+
+</html>

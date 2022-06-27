@@ -14,15 +14,34 @@ body {
   font-family: "Arial";
   height: auto;
   float: left;
-  line-height: 1.42857143;
   color: #333;
   background-color: #fff;
 }
 img {
   max-width: 100%;
 }
+.img-infor {
+  background-image: url("../public/img/icon-view2.png") !important;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  padding-top: 2px;
+  font-size: 15px;
+  font-weight: bold;
+}
 .red-text {
   color: red;
+}
+.blue-text {
+  color: blue;
+  font-style: italic;
+  margin-left: 1rem;
+}
+.red-asterisk {
+  color: red;
+  display: inline;
+}
+.gray-border {
+  border: 1px solid #bebfc0 !important;
 }
 .text-justify {
   text-align: justify;
@@ -39,6 +58,20 @@ img {
   padding-left: 12px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.important-box {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 3px 3px;
+  background-color: #f78b70;
+  text-shadow: none;
+  font-weight: normal;
+  line-height: 1;
+  color: #fff !important;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
 }
 .content-frame {
   border: 1px solid #bebfc0 !important;
@@ -420,10 +453,13 @@ footer .web-fter {
   font-weight: bold;
 }
 .form-group select {
+  line-height: 25px;
   appearance: none;
   background: url("../public/img/dropdow-bgr.png") white no-repeat 100% !important;
 }
-
+.form-group input {
+  line-height: 25px;
+}
 /* Trang thu tuc hanh chinh */
 /* Instruction page */
 .instruction-content {
@@ -440,6 +476,10 @@ footer .web-fter {
 .instruction-content .form-group select {
   height: 25px;
 }
+.form-group a {
+  text-decoration: none;
+  color: #06599f;
+}
 .form-group .btn-search {
   width: 74px;
   height: 23px;
@@ -449,7 +489,6 @@ footer .web-fter {
   border: none;
   transition: all 0.5s;
 }
-
 .form-group .btn-search:hover {
   color: #d41f18;
   background: #fff;
@@ -457,14 +496,14 @@ footer .web-fter {
 }
 
 @media (min-width: 769px) {
-  .instruction-content .form-group {
+  .form-group {
     display: flex;
     margin-bottom: 0.5rem;
   }
-  .instruction-content .form-group label,
+  .form-group label,
   span {
     text-align: right;
-    margin-right: 1rem;
+    padding-right: 0.5rem;
   }
 }
 
@@ -504,3 +543,85 @@ footer .web-fter {
   margin: 20px 0;
   border-radius: 4px;
 } */
+
+/* Gui ho so */
+/* SEND DOCUMENT */
+.send-document-content {
+  padding: 15px 5px 5px 5px;
+}
+.sender-infor {
+  flex: unset !important;
+  text-align: right;
+  align-self: center;
+}
+.application-infor {
+  margin-top: 1rem;
+}
+.application-infor-content {
+  padding: 5px 5px;
+}
+.application-infor-content h4 {
+  padding-left: 10px;
+  color: #d4201f;
+}
+.table-study-result {
+  border-color: #fff;
+}
+.table-study-result tbody tr:not(:last-child) {
+  background-color: #2387c5;
+}
+.table-study-result tr th {
+  color: #fff;
+  padding: 8px;
+  font-weight: bold;
+}
+.table-study-result tr td {
+  padding: 8px;
+  border: 1px solid #d4d4d4;
+}
+/* Nguyen vong */
+/* expectation */
+.compulsory-subject {
+  padding-right: 0.5rem;
+}
+.table-expectation {
+  border: 1px solid #e5e5e5;
+}
+
+.table-expectation thead th {
+  background-color: #2387c5;
+  padding: 8px;
+  color: #fff;
+}
+.table-expectation tr td {
+  padding: 8px;
+}
+.table-expectation th {
+  white-space: nowrap;
+  width: 1%;
+}
+.commit strong {
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 1260px) {
+  .form-expectation:nth-of-type(2),
+  .form-expectation:nth-of-type(3) {
+    display: block;
+  }
+  .form-expectation .table-expectation {
+    margin: 1rem 0;
+  }
+  .form-expectation p:not(.commit) {
+    text-align: right;
+  }
+  .form-expectation label {
+    white-space: nowrap;
+  }
+  .compulsory-subject {
+    width: 100% !important;
+  }
+  .optional-subject {
+    width: 100% !important;
+  }
+}
