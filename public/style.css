@@ -517,6 +517,9 @@ footer .web-fter {
 .result-area {
   margin-top: 1rem;
 }
+.bootstrap-select {
+  width: 100px !important;
+}
 .result-content {
   padding: 5px 5px;
   border: 1px solid #d4d4d4;
@@ -610,6 +613,12 @@ footer .web-fter {
 .table-expectation th {
   white-space: nowrap;
   width: 1%;
+}
+.filter-option-inner-inner {
+  font-size: 12px;
+}
+.select-nv {
+  display: grid;
 }
 .commit strong {
   padding-left: 0.5rem;
